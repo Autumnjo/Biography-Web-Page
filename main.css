@@ -1,0 +1,69 @@
+div.layout { 
+    padding-left: 5ch;
+    padding-right: 5ch;
+}
+
+body {
+    font-family: 'Segoe UI';
+    background-color: rgb(206, 255, 247);
+    color: darkblue;
+}
+h1 {
+    text-align: center;
+    font-weight: 100;     
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+h2{
+    font-weight: 400;
+}
+h1 a:hover {
+    color:rgb(187, 164, 31);
+}
+
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+ul.navigation li {
+    float: left;
+}
+ul.navigation li a {
+    font-weight: 100;
+    display: block;
+    padding: 10px 20px;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+}
+ul.navigation li a:hover {
+    background-color: honeydew;
+}
+
+ul.games{
+    font-size: 25px;
+    color: rgb(187, 50, 164);
+}
+
+img.me {
+    border-radius: 8px;
+    max-width: 25%;
+    float: right;
+}
+
+h3{
+    font-family: 'Lucida Sans';
+    font-size: larger;
+    font-weight: lighter;
+}
+img.ahri{
+    max-width: 50%;
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
